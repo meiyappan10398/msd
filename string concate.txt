@@ -1,0 +1,11 @@
+package javabasic;
+
+public class StringConcatenation {
+String myName = "Jayne";
+int myAge = 33;
+{
+System.out.println("My name is "+ "Jayne");
+System.out.println("I am "+myAge+"33");
+ 
+}
+}
