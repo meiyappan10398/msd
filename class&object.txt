@@ -1,0 +1,11 @@
+chapter 12 -Introduction to objects
+Any real elements can be modeled as objects
+Fan
+-> color-red 
+->speed -6sec 
+->isRunning false ->instance variable ->Data
+-------
+methods
+regulater -->speed,is Running
+
+Car=null
