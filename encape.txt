@@ -1,0 +1,17 @@
+package javabasic;
+
+public class  encapsulation {
+String model;
+double speed;
+public encapsulation() {
+	
+}
+
+public String getmodel() {
+	return model;
+	
+}
+public void setmodel(String model) {
+	this.model = model;
+}
+}
