@@ -1,0 +1,23 @@
+package javabasic;
+
+public class multiple {
+	int n1,n2;
+public void isMultiple(int n1,int n2) {
+if(n1%n2==0)
+	{
+		System.out.println("true");
+	}
+	else
+	{
+		System.out.println("false");
+	}
+	
+
+}
+public static void main(String args[]) {
+	multiple m=new multiple();
+	m.isMultiple(6,7);
+	
+}
+
+}
