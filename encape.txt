@@ -2,16 +2,29 @@ package javabasic;
 
 public class  encapsulation {
 String model;
-double speed;
+double Speed;
 public encapsulation() {
 	
 }
 
-public String getmodel() {
+public String getmode1() {
 	return model;
 	
 }
 public void setmodel(String model) {
 	this.model = model;
 }
+
+private double speed;
+public void encapsulation() {
+}
+public String getmodel1() {
+	return model;
+	}
+public void setmode1(String model) {
+	this.model= model;
+}
+	double getSpeed() {
+		return speed;
+		}
 }
