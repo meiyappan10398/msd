@@ -1,0 +1,32 @@
+public class CarExample {
+
+		public static void main(String[]args) {
+		Car car =new Car();
+		car.setSpeed(100);
+		CarExample CarExample =new CarExample();
+		
+		CarExample.amethod(car);
+		System.out.println("speed"+car.getSpeed());
+		
+		}
+		public static void amethod(Car car) {
+			car.setSpeed(300);
+			}
+public void accelerate() {
+ int Speed = 10;
+
+	}
+public void accelerate(int speed) {}
+public void accelerate(double speed) {}
+public void accelerate(int speed,String mod){}
+public void accelerate(String mod,int speed) {}
+//public void accelerate(int speed) {}
+//public void accelerate(double speed) {}
+public void changeInt(int i) {
+	Car car1 = new Car();
+	Car car2 =new Car();
+	car1.speed=20.0;//encapsulation
+	car2.speed=30.0;
+	
+}
+}
