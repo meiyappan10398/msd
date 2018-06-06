@@ -1,0 +1,22 @@
+package javabasic;
+
+public class even {
+	int n;
+public void isEven(int n) {
+if(n%2==0)
+	{
+		System.out.println("true");
+	}
+	else
+	{
+		System.out.println("false");
+	}
+	
+
+}
+public static void main(String args[]) {
+	even m=new even();
+	m.isEven(6);
+	
+}
+}
