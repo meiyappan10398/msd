@@ -1,0 +1,43 @@
+package javabasic;
+
+public class Stack {
+	static int count=10;
+	static {
+		count++;
+		System.out.println("first static block"+count);
+	}
+	public Stack() {
+		count++;
+		System.out.println("cons"+count);
+		
+	}
+	public static void getitem() {
+		count++;
+		System.out.println("instance ()"+count);
+		
+	}
+	public static void getcus() {
+		count++;
+		System.out.println("first static block"+count);;
+		
+	} 
+	public static void main(String[]args) {
+		Stack.count++;
+		Stack.getcus();
+		//Class cls =Sta.class;
+		Stack stack=new Stack();
+		Stack.getitem();
+		stack.getcus();
+		Stack.count++;
+		System.out.println("value="+count);
+		
+		
+		
+	}
+	static {
+		count++;
+		System.out.println("second static block"+count);
+		
+	}
+
+}
