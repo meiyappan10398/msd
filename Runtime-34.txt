@@ -1,0 +1,19 @@
+package com.java.lang;
+
+public class RuntimeExample {
+		
+		public static void main(String[] args) {
+			Runtime rn=Runtime.getRuntime();
+			int pro=rn.availableProcessors();
+		 System.out.println(pro);  
+		 
+		try {
+			Process process = rn.exec("Notepad");
+		    process.waitFor();
+	       } catch (Exception e) {
+	    	   e.printStackTrace();
+	       }
+		
+		}
+			
+		}
