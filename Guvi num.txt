@@ -1,0 +1,18 @@
+package javabasic;
+import java.util.Scanner;
+public class Mei {
+	public static void main(String args[])
+	{  
+	  int i=0;
+	  Scanner scnr=new Scanner(System.in);
+	  System.out.println("Meiyappan value:");
+	  int input =scnr.nextInt();
+	   do{
+	    input=input/100;
+		i++;
+	  }while(input>0);
+	  
+	  System.out.println("Enter the counter:"+i);
+	}
+}
+	
